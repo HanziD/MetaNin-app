@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TopNavBarComponent } from './NavigationBars/topnavbar.component';
+import { header } from './header/topnavbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavBarComponent
+    header
   ],
   imports: [
     BrowserModule
