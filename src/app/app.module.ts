@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { footer } from './footer/footer.component';
 import { header } from './header/topnavbar.component';
+import { homepage } from './HomePage/HomePage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     header,
-    footer
+    footer,
+    homepage
   ],
   imports: [
     BrowserModule

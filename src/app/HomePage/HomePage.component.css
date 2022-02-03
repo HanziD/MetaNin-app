@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+
+}
+.b-par{
+    color: blue;
+    font-size: 40px;
+}
+h1{
+    font-size: 14px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.box{
+    text-align: center;
+    margin-left: -15px;
+    height: auto;
+}
