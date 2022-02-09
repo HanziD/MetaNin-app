@@ -3,9 +3,9 @@
 
 
 
-<div class="container-fluid d-flex bg ">
+<div class="container-fluid d-flex bg cardalign scroll">
     <div *ngFor="let datas of data">
-        <mn-vertical-card 
+        <mn-vertical-card
         name={{datas.name}} 
         mastery={{datas.mastery}} 
         [Fort]= 'datas.Fort'
@@ -18,8 +18,13 @@
         updateDate="{{datas.updateDate}}">
             loading...
         </mn-vertical-card>
-
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 </div>
 
 
