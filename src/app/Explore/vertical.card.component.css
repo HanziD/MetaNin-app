@@ -1,0 +1,19 @@
+.bg-info{
+    background-color: #17a2b8!important;
+
+}
+body{
+   background-color: black;
+   color: white;
+   margin: 0;
+   line-height: 1.5;
+   text-align: left;
+   font-size: 14px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m-2{
+    margin: 0.5rem;
+}
