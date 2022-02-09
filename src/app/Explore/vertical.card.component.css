@@ -9,10 +9,12 @@ body{
    line-height: 1.5;
    text-align: left;
    font-size: 14px;
+
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .m-2{
     margin: 0.5rem;
