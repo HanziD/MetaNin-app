@@ -1,28 +1,12 @@
+<div class="bg">
 <mn-topnavbar>Loading...</mn-topnavbar>
-<mn-HomePage>Works!!!</mn-HomePage>
+<router-outlet></router-outlet>
 
 
-
-<div class="container-fluid d-flex bg cardalign scroll ">
-    <div *ngFor="let datas of data">
-        <mn-vertical-card
-        name={{datas.name}} 
-        mastery={{datas.mastery}} 
-        [Fort]= 'datas.Fort'
-        [Chak]='datas.Chak'
-        [int]='datas.int'
-        [str]='datas.str'
-        [agi]='datas.agi'
-        weapon="{{datas.weapon}}" 
-        creationDate="{{datas.creationDate}}" 
-        updateDate="{{datas.updateDate}}">
-            loading...
-        </mn-vertical-card>
-    </div>
-</div>
 
 
 <fm-footer>Loading...</fm-footer>
+</div>
   
 
 

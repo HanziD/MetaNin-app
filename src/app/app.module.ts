@@ -8,6 +8,8 @@ import { footer } from './footer/footer.component';
 import { header } from './header/topnavbar.component';
 import { homepage } from './HomePage/HomePage.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CreateLayoutComponent } from './Create/CreateLayout.component';
+import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AppRoutingModule } from './app-routing.module';
     header,
     footer,
     homepage,
-    VerticalCardComponent
+    VerticalCardComponent,
+    CreateLayoutComponent,
+    ExploreLayoutComponent
   ],
   imports: [
     BrowserModule,
