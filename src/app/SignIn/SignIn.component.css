@@ -1,0 +1,15 @@
+.pl-5{
+    padding-left: 3rem;
+}
+.ml-5{
+    margin-left: 3rem;
+}
+.m-5{
+    margin: 3rem;
+}
+div{
+    display: block;
+}
+.bg{
+    background-color: black;
+}

@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CreateLayoutComponent } from './Create/CreateLayout.component';
 import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
+import { SignInComponent } from './SignIn/SignIn.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,8 @@ import { AboutLayoutComponent } from './About/AboutLayout.component';
     CreateLayoutComponent,
     ExploreLayoutComponent,
     AboutLayoutComponent,
+    SignInComponent,
+    
 
   ],
   imports: [

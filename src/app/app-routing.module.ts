@@ -5,12 +5,15 @@ import { CreateLayoutComponent } from './Create/CreateLayout.component';
 import { homepage } from './HomePage/HomePage.component';
 import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
+import { SignInComponent } from './SignIn/SignIn.component';
 
 const routes: Routes = [
   {path: 'Create', component: CreateLayoutComponent},
   {path: 'MetaNin', component: homepage},
   {path: 'Explore', component: ExploreLayoutComponent},
   {path: 'About', component: AboutLayoutComponent},
+  {path: 'Signin', component: SignInComponent},
+  
 
 ];
 
