@@ -7,6 +7,7 @@ import { VerticalCardComponent } from './Explore/vertical.card.component';
 import { footer } from './footer/footer.component';
 import { header } from './header/topnavbar.component';
 import { homepage } from './HomePage/HomePage.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { homepage } from './HomePage/HomePage.component';
     VerticalCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
