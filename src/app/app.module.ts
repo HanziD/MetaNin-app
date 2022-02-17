@@ -10,6 +10,7 @@ import { homepage } from './HomePage/HomePage.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CreateLayoutComponent } from './Create/CreateLayout.component';
 import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
+import { AboutLayoutComponent } from './About/AboutLayout.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
     homepage,
     VerticalCardComponent,
     CreateLayoutComponent,
-    ExploreLayoutComponent
+    ExploreLayoutComponent,
+    AboutLayoutComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.bg{
+    background-color: black;
+}
+.text-center{
+    text-align: center;
+}
+.m-5{
+    margin: 3rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
