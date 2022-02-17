@@ -12,6 +12,7 @@ import { CreateLayoutComponent } from './Create/CreateLayout.component';
 import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
 import { SignInComponent } from './SignIn/SignIn.component';
+import { SignupComponent } from './SignUp/Signup.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SignInComponent } from './SignIn/SignIn.component';
     ExploreLayoutComponent,
     AboutLayoutComponent,
     SignInComponent,
+    SignupComponent
     
 
   ],

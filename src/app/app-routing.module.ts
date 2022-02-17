@@ -6,6 +6,7 @@ import { homepage } from './HomePage/HomePage.component';
 import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
 import { SignInComponent } from './SignIn/SignIn.component';
+import { SignupComponent } from './SignUp/Signup.component';
 
 const routes: Routes = [
   {path: 'Create', component: CreateLayoutComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'Explore', component: ExploreLayoutComponent},
   {path: 'About', component: AboutLayoutComponent},
   {path: 'Signin', component: SignInComponent},
+  {path: 'Signup', component: SignupComponent},
   
 
 ];
