@@ -1,0 +1,30 @@
+
+.justify-content-center{
+    justify-content: center;
+}
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}   
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    
+}
+.back{
+    background-color: #17a2b8;
+}
+.butt{
+    color: red;
+    width:2.5em;
+    text-align:center
+}
+.btn-block{
+    width: 700px;
+}
+.background{
+    background-color: black;
+}
+  
+  
