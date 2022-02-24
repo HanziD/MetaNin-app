@@ -13,6 +13,9 @@ import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
 import { SignInComponent } from './SignIn/SignIn.component';
 import { SignupComponent } from './SignUp/Signup.component';
+import { WallOfFameComponent } from './WallOfFame/wall-of-fame.component';
+import { KazekageVerticalCardComponent } from './WallOfFame/kazekage-vertical-card.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { SignupComponent } from './SignUp/Signup.component';
     ExploreLayoutComponent,
     AboutLayoutComponent,
     SignInComponent,
-    SignupComponent
+    SignupComponent,
+    WallOfFameComponent,
+    KazekageVerticalCardComponent,
     
 
   ],

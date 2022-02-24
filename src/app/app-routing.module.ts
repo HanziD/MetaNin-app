@@ -7,14 +7,18 @@ import { ExploreLayoutComponent } from './Explore/ExploreLayout.component';
 import { AboutLayoutComponent } from './About/AboutLayout.component';
 import { SignInComponent } from './SignIn/SignIn.component';
 import { SignupComponent } from './SignUp/Signup.component';
+import { WallOfFameComponent } from './WallOfFame/wall-of-fame.component';
 
 const routes: Routes = [
   {path: 'Create', component: CreateLayoutComponent},
   {path: 'MetaNin', component: homepage},
   {path: 'Explore', component: ExploreLayoutComponent},
   {path: 'About', component: AboutLayoutComponent},
+  {path: 'Wall Of Fame', component: WallOfFameComponent},
   {path: 'Signin', component: SignInComponent},
   {path: 'Signup', component: SignupComponent},
+  {path: '', redirectTo: 'Metanin', pathMatch: 'full'},
+
   
 
 ];
