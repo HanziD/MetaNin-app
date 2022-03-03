@@ -15,7 +15,8 @@ import { SignInComponent } from './SignIn/SignIn.component';
 import { SignupComponent } from './SignUp/Signup.component';
 import { WallOfFameComponent } from './WallOfFame/wall-of-fame.component';
 import { KazekageVerticalCardComponent } from './WallOfFame/kazekage-vertical-card.component';
-
+import { HttpClientModule } from '@angular/common/http'
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +32,14 @@ import { KazekageVerticalCardComponent } from './WallOfFame/kazekage-vertical-ca
     SignupComponent,
     WallOfFameComponent,
     KazekageVerticalCardComponent,
+    UserInfoComponent
     
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
