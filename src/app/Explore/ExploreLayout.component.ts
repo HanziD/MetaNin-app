@@ -1,22 +1,26 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CreateModel } from "./create-data.model";
-import { mock_create_list } from "./mock-create-list";
+import { ExploreService } from "./explore.service";
 
 @Component({
     selector: 'mn-explore-component',
     templateUrl: 'ExploreLayout.component.html',
     styleUrls: ['ExploreLayout.component.css']
 })
-export class ExploreLayoutComponent {
+export class ExploreLayoutComponent implements OnInit{
 
     data: CreateModel [] = [];
  
-    constructor(){
-      for(var datas of mock_create_list){
-        console.log(datas);
-        this.data.push(datas);
-        
-        
-      }
+    constructor(private exploreService: ExploreService){
+      
     }
+  ngOnInit(): void {
+    this.exploreService.getExplore().subscribe((data: CreateModel [])=>
+    {
+      console.log("fetching items");
+      for(var datas of data){
+        this.data.push(datas);
+      }
+    });
+  }
 }
