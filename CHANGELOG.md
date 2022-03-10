@@ -6,3 +6,12 @@ Main Features:
   Assignment #6 
   Main Features:
     -Implemented the fire base
+  
+  Assignment #7 
+  Main Features:
+    -Implemented Service Component
+        the service component grabs the explore cards information from the firebase (backend)
+    -Removed ngFor loop from ExploreLayout.component.ts 
+        the ngFor loop was removed and replaced with the service to fetch data from the backend
+
+
