@@ -1,23 +1,20 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { CreateModel } from "./create-data.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable(
     {providedIn: 'root'}
 )
 
 export class ExploreService{
-    private baseUrl: string = "https://metanin-app-default-rtdb.firebaseio.com/";
-    private exploreEndPoint: string = "Explore.json"
-
-    constructor(private http:HttpClient){
+    constructor(private db:AngularFireDatabase){
 
     }
     getExplore(){
-        return this.http.get<CreateModel []>(this.baseUrl + this.exploreEndPoint);
+        return this.db.list<CreateModel>("explore").valueChanges();
     }
 
     getExplor(index:number){
-        return this.http.get<CreateModel>(this.baseUrl + 'Explore' + '/' + index + '.json');
+
     }
 }
