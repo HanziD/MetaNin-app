@@ -11,7 +11,7 @@ export class ExploreService{
 
     }
     getExplore(){
-        return this.db.list<CreateModel>("explore").valueChanges();
+        return this.db.list<CreateModel>("Explore").valueChanges();
     }
 
     getExplor(index:number){
