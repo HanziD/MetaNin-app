@@ -21,6 +21,11 @@ Main Features:
         Also allows me to deploy the web app
     -Removed httpClient from explore.service.ts
         replaced httpClient with angular fire base service to fetch card data
+  Assignment #10
+  Main Features
+    -Implemented authenticatino components
+          this component is a form that allows the user to signin with email and password than sends it to the backend
+          
 
 
 
