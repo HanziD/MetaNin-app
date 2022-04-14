@@ -8,6 +8,8 @@ import { AboutLayoutComponent } from './About/AboutLayout.component';
 import { SignInComponent } from './SignIn/SignIn.component';
 import { SignupComponent } from './SignUp/Signup.component';
 import { WallOfFameComponent } from './WallOfFame/wall-of-fame.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
+import { AddCardComponent } from './Explore/addCard/add-card.component';
 
 const routes: Routes = [
   {path: 'Create', component: CreateLayoutComponent},
@@ -17,6 +19,8 @@ const routes: Routes = [
   {path: 'Wall Of Fame', component: WallOfFameComponent},
   {path: 'Signin', component: SignInComponent},
   {path: 'Signup', component: SignupComponent},
+  {path: 'auth', component: AuthenticationComponent},
+  {path: 'admin', component: AddCardComponent},
   {path: '', redirectTo: 'Metanin', pathMatch: 'full'},
 
   
